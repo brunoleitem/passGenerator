@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container, .settings {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 10vh;
+    margin: 5rem;
+}
+h2 {
+    margin-top: 2rem;
+}
+.result {
+    margin: 3rem;
+}
+
+.length {
+    margin-bottom: 1rem;
+}
+
+.checks {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.checks .val {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.settings-container {
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+.btn {
+    margin: 3rem;
+    cursor: pointer;
+}
+
+.btn-copy {
+    cursor: pointer;
+    padding: 3px;
+    margin: 5px;
+}
+
