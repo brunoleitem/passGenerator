@@ -14,10 +14,12 @@
         <div class="container-box">
             <h2>Password Generator</h2>
             <div class="result">
-                <input type="text" class="result-input" id="result" readonly>
-                <button class="btn-copy" id="copy">
-                    <i class="far fa-clipboard"></i>
-                </button>
+                <div class="result-container">
+                    <span id="result"></span> 
+                    <button class="btn-copy" id="copy">
+                        <i class="far fa-clipboard"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -25,7 +27,7 @@
         <div class="settings-container">
         <div class="length">
             <label>Length: </label>
-            <input type="number" maxlength="100" minlength="4" id="length">
+            <input type="number" max="100" min="1" id="length">
         </div>
         <div class="checks">
             <label  class="label">Enable LowerCase: </label>

@@ -15,7 +15,17 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.result {
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    border: rgb(190, 190, 190) solid 1px;
+    border-radius: 7px;
+}
 
+.result-container{
+    margin-left: 10px;
+}
 .container-box{
     display: flex;
     justify-content: center;
